@@ -8,15 +8,6 @@ using System.Web;
 
 namespace Invoice.Models
 {
-    public enum AccountStatus
-    {
-        [Description("停用")]
-        Disable = 0,
-
-        [Description("啟用")]
-        Activity = 1,
-    }
-
     [Table("Account")]
     public class Account
     {
